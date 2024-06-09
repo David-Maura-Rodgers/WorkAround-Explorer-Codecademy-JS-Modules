@@ -1,8 +1,7 @@
 // TODO: Add your import statements here.
 import { getRoles, getCompanies } from '../modules/salaryData.js';
 
-import domFunctions from '../modules/salaryData.js';
-const { getRoles, getCompanies } = domFunctions;
+import salaryData from './modules/salaryData.js';
 
 // TODO: Get the companies and roles using the salaryData module.
 const companies = getCompanies();

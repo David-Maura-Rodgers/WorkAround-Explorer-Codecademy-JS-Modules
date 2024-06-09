@@ -31,7 +31,4 @@ const getDataByCompany = company => {
 
 export { getRoles, getCompanies, getDataByRole, getDataByCompany };
 
-const salaryArray = { 
-  salaryData,
-}
-export default salaryArray;
+export default salaryData;
